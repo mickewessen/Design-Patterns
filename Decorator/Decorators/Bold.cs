@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace Decorator.Decorators
 {
-    public class Marked : TextInputDecorator, IMarked
+    public class Bold : TextInputDecorator, IBold
     {
-        public Marked(ITextInput text): base(text)
+        public Bold(ITextInput text): base(text)
         {
-            StartTag = "<mark>";
-            EndTag = "</mark>";
+            StartTag = "<b>";
+            EndTag = "</b>";
         }
     }
 }
