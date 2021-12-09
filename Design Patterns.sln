@@ -15,7 +15,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Facade", "Facade\Facade.csp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Adapter", "Adapter\Adapter.csproj", "{B5291C5B-4BCB-445B-A807-0314F7200CBB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{B3FC49A1-9ADC-4341-97B8-FA8C49DF121F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AbstractFactory", "AbstractFactory\AbstractFactory.csproj", "{B3FC49A1-9ADC-4341-97B8-FA8C49DF121F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StateCommandMemento", "StateCommandMemento\StateCommandMemento.csproj", "{C9006DC1-293A-4347-A04D-18453116EC13}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{B3FC49A1-9ADC-4341-97B8-FA8C49DF121F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3FC49A1-9ADC-4341-97B8-FA8C49DF121F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3FC49A1-9ADC-4341-97B8-FA8C49DF121F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9006DC1-293A-4347-A04D-18453116EC13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9006DC1-293A-4347-A04D-18453116EC13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9006DC1-293A-4347-A04D-18453116EC13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9006DC1-293A-4347-A04D-18453116EC13}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
