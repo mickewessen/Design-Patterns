@@ -22,14 +22,12 @@ namespace Observer
 
         public void Run()
         {
+            Email mail = new();
+            EmailWatcher watcher = new();
+            mail.RegisterOberserver(watcher);
+            mail.CreateTimer();
             Console.WriteLine("Observer");
-            var email = "";
-            while (string.IsNullOrEmpty(email))
-            {
-                email = Email.Message;
-            }
-            Console.WriteLine(email);
-            Console.WriteLine();
+
         }
     }
 }

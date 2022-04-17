@@ -1,10 +1,13 @@
 ﻿using Observer.ObserverFiles;
 using System.Collections.Generic;
+using System.Timers;
 
 namespace Observer.SubjectFiles
 {
     public interface IEmail:ISubject
     {
-        string Message { get; set; }
+        public void CreateTimer();
+
+        public void HandleTimerElapsed(object sender, ElapsedEventArgs e);
     }
 }

@@ -10,6 +10,8 @@ namespace Observer.SubjectFiles
     public interface ISubject
     {
         List<IObservers> Observers { get; set; }
-        void NotifyObservers();
+        void RegisterOberserver(IObservers observer);
+        void UnregisterObserver(IObservers observer);
+        void NotifyObservers(string message);
     }
 }
