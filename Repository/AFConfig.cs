@@ -14,7 +14,7 @@ namespace Repository
             var builder = new ContainerBuilder();
 
             builder.RegisterType<Application>().As<IApplication>();
-            builder.RegisterType<DataRepositoryA>().As<IDataRepository>();
+            builder.RegisterType<DataRepository>().As<IDataRepository>();
 
             return builder.Build();
         }
